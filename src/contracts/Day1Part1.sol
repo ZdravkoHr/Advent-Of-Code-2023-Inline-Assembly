@@ -5,7 +5,7 @@ import {CommonBase} from "forge-std/Base.sol";
 
 //import 'forge-std/Vm.sol';
 
-contract Solve is CommonBase {
+contract Day1Part1 is CommonBase {
     function solve() public returns(uint256 resultNum) {
         string memory data = vm.readFile("./input.txt");
         assembly {
